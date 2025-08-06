@@ -1,5 +1,6 @@
-# END-seq
+# END-seq Pipeline
 END-seq is a next-generation sequencing technique that allows the quantitative mapping of endogenous DNA double-strand breaks (DSBs) at nucleotide resolution.
+Process END-seq data with this pipeline.
 
 ## Project description
 This project has been created to analyse the END-seq data.
@@ -8,6 +9,7 @@ The mapping of DSBs allowed us to obtain insights into the role of RNA polymeras
 
 ## Methods
 A spike-in internal control has been used in the experiment. Each sample sequenced contained a constant number of murine cells harbouring an induced DSB in a known genomic location. Given that the efficiency of the formation of the spike-in DSB is nearly 100%, the intensity of the END-seq signal over the spike-in peak can be used to normalize the signal of the experimental samples. 
+Paired-end sequencing was performed.
 As the sequenced samples contained both murine and human cells, the reference genome used to align the reads was a merge of the hg38 and mm10 genomes.
 
 ## Analysis steps
