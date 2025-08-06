@@ -3,7 +3,7 @@ conda activate bioinfo
 # Folder containing .fastq.gz files
 cd /mnt/c/Users/user/WORK/ENDseq
 # Set the number of threads to use
-THR=5
+THR=5 
 
 # Generate ids file
 # It is important that the control filename start with NT and replicates are listed as rep1, rep2 ecc
