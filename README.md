@@ -1,4 +1,4 @@
-# END-seq analysis Pipeline
+# END-seq analysis pipeline
 END-seq is a next-generation sequencing technique that allows the quantitative mapping of endogenous DNA double-strand breaks (DSBs) at nucleotide resolution.
 Process END-seq data with this pipeline.
 
